@@ -10,7 +10,7 @@ int interact(info_x *infor)
 
 {
 
-	return (isakitty(STDIN_FILENO) && infor->readfd <= 2);
+	return (isatty(STDIN_FILENO) && infor->readfd <= 2);
 
 }
 
