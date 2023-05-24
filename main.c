@@ -12,7 +12,7 @@ int main(int ac, char **av)
 
 {
 
-        info_x info[] =  [INFO_INIT];
+        info_x info[] = {INFO_INIT};
 
         int fd = 2;
 
