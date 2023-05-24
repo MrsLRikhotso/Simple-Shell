@@ -176,7 +176,7 @@ typedef struct passinfo
         int readfd;
 
         int histcount;
-
+	
 } info_x;
 
 
